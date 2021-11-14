@@ -7,7 +7,7 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/get_data', function (req, res, next) {
-  let query = 'select * from article'
+  // let query = 'select * from article'
 
   res.send({ name: "oat index get data" });
 
